@@ -29,13 +29,13 @@ export class ContactComponent implements OnInit {
     'lastname': {
       'required': 'Last name is required.',
       'minlength': 'Last name must be atleast 2 characters long',
-      'maxlength': 'Last name cannot be mora than 25 characters long'
+      'maxlength': 'Last name cannot be more than 25 characters long'
     },
     'telnum': {
       'required': 'Tel. number is required.',
       'pattern': 'Tel. number must contain only numbers'
     },
-    'email' {
+    'email': {
       'required': 'Email is required',
       'email': 'Email not in valid format'
     }
